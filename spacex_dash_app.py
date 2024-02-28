@@ -88,5 +88,5 @@ def get_scatter_chart(entered_site, slider_range):
         title='Correlation of Payload and Successful Missions for site {entered_site}')
         return fig
 # Run the app
-if __name__ == '_main_':
+if __name__ == '__main__':
     app.run_server(port = 8050)
